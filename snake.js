@@ -66,7 +66,7 @@ function game()
     ctx.fillStyle = "black";
     ctx.fillRect(0, 0, ca.width, ca.height);
 
-    ctx.fillStyle = "white";
+    ctx.fillStyle = "green";
     for (var i = 0; i < trail.length; i++)
     {
         ctx.fillRect(trail[i].x*tp+1, trail[i].y*tp+1, tp-2, tp-2);
