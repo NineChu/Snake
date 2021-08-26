@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(30, 100, 200);
+}
+
+h1 {
+    text-align:center;
+    font-family: "georgia";
+    color: white;
+    z-index: 3;
+}
+
+p {
+    text-align:center;
+    font-family: "georgia";
+    font-size: 20px;
+    z-index: 3;
+}
+#j {
+    background-color: rgb(30, 100, 150);
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    z-index: 3;
+}
+.info {
+    font-size: 15px;
+    color: white;
+}
