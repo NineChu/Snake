@@ -48,19 +48,27 @@ function game()
     py += vy;
     if (px < 0)
     {
-        px = qp - 1;
+        vx = vy = 0;
+        tail = 5;
+        score = 0;
     }
     if (px > qp - 1)
     {
-        px = 0;
+        vx = vy = 0;
+        tail = 5;
+        score = 0;
     }
     if (py < 0)
     {
-        py = qp - 1;
+        vx = vy = 0;
+        tail = 5;
+        score = 0;
     }
     if (py > qp - 1)
     {
-        py = 0;
+        vx = vy = 0;
+        tail = 5;
+        score = 0;
     }
 
     ctx.fillStyle = "black";
